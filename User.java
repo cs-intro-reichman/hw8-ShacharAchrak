@@ -40,7 +40,7 @@
     public int getfCount() {
         return fCount;
     }
-
+    
     /** If this user follows the given name, returns true; otherwise returns false. */
     public boolean follows(String name) {
        for(int i = 0; i < fCount; i++){

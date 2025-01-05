@@ -31,7 +31,7 @@ public class Network {
      *  Notice that the method receives a String, and returns a User object. */
     public User getUser(String name) {
         for (int i = 0; i < this.userCount; i++){
-            if(users[i].getName().equals(name)){
+            if(users[i].getName().equalsIgnoreCase(name)){
                 return users[i];
             }
         }

@@ -41,7 +41,7 @@ public class Network {
     /** Adds a new user with the given name to this network.
     *  If ths network is full, does nothing and returns false;
     *  If the given name is already a user in this network, does nothing and returns false;
-    *  Otherwise, creates a new user with the given name, adds the user to this network, and returns true. */
+    *  Otherwise, creates a new user with the given name, adds the user to this network, and returns true.      */
     public boolean addUser(String name) {
         if (userCount == users.length || getUser(name) != null) {
             return false;
